@@ -1,14 +1,21 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
+  <mat-toolbar color="primary">
+    <span>Application Title</span>
+  
+    <!-- This fills the remaining space of the current row -->
+    <span class="example-fill-remaining-space"></span>
+  
+    <span></span>
+  </mat-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+  
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>Ionic 4 + Angular Material</mat-card-title>
+      <mat-card-subtitle>Boilerplate</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://miro.medium.com/max/1280/1*QuIFcpN67E4Qiz1FNMjwfg.png" alt="Ionic + Angular">
+  </mat-card>
 </ion-content>
